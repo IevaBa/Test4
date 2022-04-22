@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test4</title>
+  </head>
+  <body>
+    <h2 id="first"></h2>
+    <h2 id="second"></h2>
+    <button
+      onclick="document.getElementById('first').innerText = rand(1,6); document.getElementById('second').innerText = rand(1,6)"
+    >
+      Click me
+    </button>
+    <h3 id="third"></h3>
+    <button onclick="document.getElementById('third').innerText = rand(1,10)" ;>
+      Click me
+    </button>
+    <ul></ul>
+    <input type="number" id="firstInput" />
+    <input type="number" id="secondInput" />
+    <h5></h5>
+    <button onclick="plus() ; buttonClick(this)" value="+">+</button>
+    <button onclick="minus(); buttonClick(this)" value="-">-</button>
+    <ul></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
